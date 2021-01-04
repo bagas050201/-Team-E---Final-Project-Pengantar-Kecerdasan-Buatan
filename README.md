@@ -9,7 +9,7 @@ Hidden Markov Models (HMM) Algorithm
 
 ## HMM Algorithm ##
 * Nama Project : Hidden Markov Models Algorithm in Weka 3.8
-* Original referenced paper : [Rabiner Juang Hmms](https://github.com/bagas050201/Team-E-Final-Project-Pengantar-Kecerdasan-Buatan/blob/main/Rabiner_Juang_hmms.pdf)
+* Original referenced paper : [Rabiner Juang Hmms.pdf](https://github.com/bagas050201/Team-E-Final-Project-Pengantar-Kecerdasan-Buatan/blob/main/Rabiner_Juang_hmms.pdf)
 * Complete Source code : [HMM](https://github.com/bagas050201/Team-E-Final-Project-Pengantar-Kecerdasan-Buatan/tree/main/weka-3.8-master/weka/src/main/java/weka/classifiers/HMM)
 * location source code : weka-3.8-master/weka/src/main/java/weka/classifiers/HMM
 
