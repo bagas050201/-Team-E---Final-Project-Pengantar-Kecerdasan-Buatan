@@ -429,11 +429,6 @@ public class HMM extends weka.classifiers.RandomizableClassifier implements weka
 	}
 	
 	/**
-	 * get the probabilities from a particular sequence
-	 * 
-	 * @param instance the data instance (sequence)
-	 * @return an array of probabilities (doubles). The nth value is the probability that the sequence is of the nth class.
-	 *
 	 * mendapatkan probabilitas dari sequence tertentu
 	 *
 	 * parameter instance berguna untuk instance data (sequence)
@@ -764,9 +759,6 @@ public class HMM extends weka.classifiers.RandomizableClassifier implements weka
 	}
 	
 	/*
-	 * Initialize the hmm estimators prior to learning
-	 * 
-	 * @param numClasses the number of classes (i.e. the number of estimators)
 	 * parameter numClass berisi jumlah kelas
 	 * parameter data adalah data yang akan digunakan untuk inisiasi
 	 */
@@ -1171,9 +1163,7 @@ public class HMM extends weka.classifiers.RandomizableClassifier implements weka
 		
 	}
 	
-	/*
-	 * train an HMM classifier from data
-	 * 
+	/* 
 	 * parameter data adalah dataset yang akan digunakan untuk training
 	 */
 	public void buildClassifier(weka.core.Instances data) throws Exception {
